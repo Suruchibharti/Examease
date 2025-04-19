@@ -1,0 +1,62 @@
+.notice-page {
+  display: flex;
+  
+  height: 100vh;
+}
+
+.notice-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:auto;
+  
+}
+
+.notice-card {
+  width: 50%; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+.top-notices-container {
+  
+  padding: 20px;
+ 
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.notice-card {
+ width: 40vh;
+  margin: 20px;
+  padding: 10px;
+  
+  border-radius: 5px;
+  background-color:white;
+}
+
+.notice-card h3 {
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .notice-page {
+    flex-direction: column;
+    flex-flow: wrap;
+    height: max-content;
+  }
+
+  .top-notices-container,
+  .all-notices-container {
+    width: 100%;
+    margin: 0; 
+  }
+  .notice-cards
+  {
+    padding: auto;
+  }
+}
+.notice
+{
+
+     margin:10px ;
+     background-color: white;
+}
+
